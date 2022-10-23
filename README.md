@@ -21,6 +21,36 @@ input-component-react simplifies the process of creating input JSX components fo
 
 ![image](https://user-images.githubusercontent.com/32457437/197393567-332eba27-821e-4171-8653-22982c931c8d.png)
 
+For Example, In the above screenshot, you can see 2 text inputs, and 1 color, number, file, date type inputs each
+The code required to render this form is: 
+
+```Javascript
+        InputComponentReact
+          type="text"
+          label="First Name"
+        />
+        <InputComponentReact
+          type="text"
+          label="Last Name"
+        />
+        <InputComponentReact
+          type="number"
+          label="Price"
+        />
+        <InputComponentReact
+          type="color"
+          label="Color"
+        />
+        <InputComponentReact
+          type="date"
+          label="Date"
+        />
+        <InputComponentReact
+          type="file"
+          label="Upload Documents"
+        />
+```
+Visit the source code to know how to add functionalities to the form
 
 In the project directory, you can run:
 
