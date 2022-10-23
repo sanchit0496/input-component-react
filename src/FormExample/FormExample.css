@@ -1,0 +1,64 @@
+h1 {
+    margin: 0 auto 40px;
+    color: #fff;
+    font: 20px Helvetica;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.form{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 5rem;
+}  
+.input-component-react{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: -6rem;
+}
+.input-component-react-label{
+    width: 200px;
+    text-align: left;
+    color: #fff;
+    font: 16px Helvetica;
+    padding: 10px;
+}
+.input-component-react-input{
+    font: 14px Helvetica;
+    padding: 10px;
+}
+.input-component-react-error{
+    font-size: 12px;
+    font-weight: 600;
+    color: darkred;
+}
+button{
+    transition: all 0.2s ease-in-out;
+    font: 18px Helvetica, Arial, sans-serif;
+    border: none;
+    background: #1aaf75;
+    color: #fff;
+    padding: 16px 40px;
+    margin-top: 40px;
+}
+button:hover{
+    background: #109f67;
+    cursor: pointer;
+}
+.Colorinput{
+    padding: 0px !important;
+    border-radius: 4px;
+    height: 35px;
+    border: 1px solid dimgray;
+}
+.Dateinput{
+    color:gray;
+    width: 155px;
+}
+.Documentsinput{
+    margin-left: -0.6rem;
+}
