@@ -50,7 +50,7 @@ The code required to render this form is:
           label="Upload Documents"
         />
 ```
-Visit the source code to know how to add functionalities to the form
+Visit the source code to know how to add functionalities to the form.
 
 In the project directory, you can run:
 
