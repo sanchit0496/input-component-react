@@ -1,5 +1,5 @@
 # input-component-react
-input-component-react simplifies the process of creating input JSX components for react-based applications. The componets generated are CSS-friendly and are compatible with unit-testing using React Testing Library and JEST
+input-component-react simplifies the process of creating input JSX components for react-based applications. The components generated are CSS-friendly and are compatible with unit-testing using React Testing Library and JEST
 
 
 ## Available Props 
