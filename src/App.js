@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import FormExample from './FormExample/FormExample';
+import FormExample from "../src/FormExample/FormExample"
 
 function App() {
   return (
