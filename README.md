@@ -19,6 +19,8 @@ input-component-react simplifies the process of creating input JSX components fo
 | errorMessage 	| The error message to be displayed below the input component                                            	| String     	|
 | dataTestId   	| Used as a data-testId for unit testing purpose                                                         	| String     	|
 
+![image](https://user-images.githubusercontent.com/32457437/197393567-332eba27-821e-4171-8653-22982c931c8d.png)
+
 
 In the project directory, you can run:
 
