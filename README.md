@@ -19,6 +19,17 @@ input-component-react simplifies the process of creating input JSX components fo
 | errorMessage 	| The error message to be displayed below the input component                                            	| String     	|
 | dataTestId   	| Used as a data-testId for unit testing purpose                                                         	| String     	|
 
+## CSS Classes
+
+| className                                     	| Type    	| Feature                                                                                       	|
+|-----------------------------------------------	|---------	|-----------------------------------------------------------------------------------------------	|
+| input-component-react                         	| Primary 	| CSS class for an entire input component, consisting of label, input, and error div            	|
+| input-component-react-label                   	| Primary 	| CSS class for labels of the component                                                         	|
+| labelAndInputContainer                        	| Primary 	| CSS class for input and error div. Flex properties can be applied here to create distinct UIs 	|
+| {`input-component-react-label ${label}label   	| Custom  	| Custom CSS class for a particular label                                                       	|
+| {input-component-react-input ${label}input}   	| Custom  	| Custom CSS class for a particular input                                                       	|
+| {`input-component-react-error ${label}error`} 	| Custom  	| Custom CSS class for a particular error div                                                   	|
+
 ![image](https://user-images.githubusercontent.com/32457437/197393567-332eba27-821e-4171-8653-22982c931c8d.png)
 
 For Example, In the above screenshot, you can see 2 text inputs, and 1 color, number, file, date type inputs each
