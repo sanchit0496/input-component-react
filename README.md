@@ -25,7 +25,7 @@ For Example, In the above screenshot, you can see 2 text inputs, and 1 color, nu
 The code required to render this form is: 
 
 ```Javascript
-        InputComponentReact
+        <InputComponentReact
           type="text"
           label="First Name"
         />
@@ -50,6 +50,10 @@ The code required to render this form is:
           label="Upload Documents"
         />
 ```
+
+## npm i input-component-react
+
+See how easy it is! Add the package to your application and feel the difference
 Visit the source code to know how to add functionalities to the form.
 
 In the project directory, you can run:
